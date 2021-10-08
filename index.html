@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="/index.js" defer></script>
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <form id="input-form">
+                <div class="form-control">
+                    <label for="title"></label>
+                    <input id="title" type="text" placeholder="Name">
+                </div>
+                <div class="form-control">
+                    <label for="price"></label>
+                    <input id="price" type="text" placeholder="Price">
+                </div>
+                <div class="form-control">
+                    <label for="heat"></label>
+                    <input id="heat" type="text" placeholder="Heat">
+                </div>
+                <div class="form-control">
+                    <label for="toppings"></label>
+                    <input id="toppings" type="text" placeholder="Toppings">
+                </div>
+                <div class="form-control">
+                    <label for="image"></label>
+                    <input id="image" type="text" placeholder="Photo(url)">
+                </div>
+                <div class="error-container">
+                    <div id="error"></div>                    
+                </div>
+                
+                <button type="submit" class="btn-add">Add Pizza</button>
+            </form>
+        </div>
+        <div id="pizza-menu" class="Pizza-menu-container">
+            <div id="pizza-container" class="pizza-container"></button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

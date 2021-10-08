@@ -1,0 +1,90 @@
+.btn-add {
+  color: red;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+}
+
+.Pizza-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pizza-container {
+  margin-right: 20px;
+}
+
+.pizza-container div {
+  margin-bottom: 5px;
+}
+
+.name-heat {
+  display: flex;
+}
+
+#error {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.btn-add {
+  background-color: rgb(54, 101, 243);
+  border: white;
+  color: white;
+  padding: 5px;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: rgb(27, 79, 236);
+}
+
+.btn-add:active {
+  background-color: rgb(55, 90, 196);
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.form-container input {
+  border: white;
+  border-bottom: solid 1px rgb(138, 138, 138);
+  padding: 15px 50px;
+  margin: 10px;
+  background-color: rgb(238, 245, 255);
+}
+
+.form-container input:focus {
+  outline: none;
+  border-bottom: solid 1px rgb(10, 23, 51);
+}
+
+.error-container {
+  width: 500px;
+  height: 15px;
+}
+
+.delete {
+  background-color: rgb(54, 101, 243);
+  border: white;
+  color: white;
+  padding: 5px;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: rgb(27, 79, 236);
+}
+
+.delete:active {
+  background-color: rgb(55, 90, 196);
+}
